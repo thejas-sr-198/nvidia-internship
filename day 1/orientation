@@ -1,0 +1,32 @@
+# AI/ML Internship – Day 1: Environment Setup & Kubernetes
+
+## Objective
+
+Set up the development environment for the AI/ML internship and learn the basics of working with Kubernetes-based GPU instances.
+
+## Topics Covered
+
+* SSH login using assigned credentials
+* Basic Linux terminal commands
+* Editing configuration files using `vim`
+* Creating and deploying Kubernetes pods
+* Managing pods and services with `kubectl`
+* Accessing a running container using `kubectl exec`
+* Installing JupyterLab inside the container
+* Launching JupyterLab and accessing it through a web browser
+* Managing the pod lifecycle by deleting resources after use
+
+## Commands Practiced
+
+* `vim pod-service.yaml`
+* `kubectl apply -f pod-service.yaml`
+* `kubectl get pods`
+* `kubectl get services`
+* `kubectl exec -it <pod-name> -- bash`
+* `pip install jupyterlab`
+* `jupyter lab --NotebookApp.token="<token>"`
+* `kubectl delete -f pod-service.yaml`
+
+## Outcome
+
+Successfully configured a Kubernetes-based GPU development environment, launched JupyterLab, and gained hands-on experience with container deployment, management, and cleanup for AI/ML workflows.
